@@ -1,4 +1,4 @@
-OUT_DIR = Some(/home/azeem/PP/rfetch/target/release/build/sys-info-e8bf543a6de5f7cb/out)
+OUT_DIR = Some(/home/azeem/rfetch/target/release/build/sys-info-e8bf543a6de5f7cb/out)
 TARGET = Some(x86_64-unknown-linux-gnu)
 OPT_LEVEL = Some(3)
 HOST = Some(x86_64-unknown-linux-gnu)
@@ -41,4 +41,4 @@ HOST_ARFLAGS = None
 cargo:rerun-if-env-changed=ARFLAGS
 ARFLAGS = None
 cargo:rustc-link-lib=static=info
-cargo:rustc-link-search=native=/home/azeem/PP/rfetch/target/release/build/sys-info-e8bf543a6de5f7cb/out
+cargo:rustc-link-search=native=/home/azeem/rfetch/target/release/build/sys-info-e8bf543a6de5f7cb/out

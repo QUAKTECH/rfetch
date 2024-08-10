@@ -133,10 +133,10 @@ fn main() {
         uptime
     );
 
-    eprint!("{}", colored_symbol.red());
-    eprint!("{}", colored_symbol.green());
-    eprint!("{}", colored_symbol.blue());
-    eprint!("{}", colored_symbol.yellow());
-    eprint!("{}", colored_symbol.magenta());
-    eprint!("{}", colored_symbol.cyan());
+    print!("{}", colored_symbol.red());
+    print!("{}", colored_symbol.green());
+    print!("{}", colored_symbol.blue());
+    print!("{}", colored_symbol.yellow());
+    print!("{}", colored_symbol.magenta());
+    print!("{}\n", colored_symbol.cyan());
 }
