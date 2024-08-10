@@ -1,0 +1,10 @@
+[package]
+name = "rfetch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sys-info = "0.9"
+users = "0.11"
+whoami = "1.3"
+colored = "2.1.0"
